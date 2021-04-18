@@ -116,12 +116,7 @@ const handleClick=(n)=>{
       <ListItemText primary="Table 2" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#EE5622"}} />
     </ListItem>
      
-    <ListItem button className={classes.nested} onClick={()=>handleClick(6)}>
-      <ListItemIcon>
-        <TableChartIcon />
-      </ListItemIcon>
-      <ListItemText primary="Table 3" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#EE5622"}} />
-    </ListItem>
+    
 
     </List>
       </Collapse>

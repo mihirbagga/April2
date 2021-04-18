@@ -16,11 +16,12 @@ import Ch from './charts'
 import Pie from './Pie'
 import Barr from './Bar'
 import Table from './Table'
-import Table2 from './Table2'
+
 import Table3 from './Table3'
 import Landing from './vibranium/Landing';
 import faker from 'faker'
 import '../src/App.css'
+import Over from './registration/over';
 
 
 const drawerWidth = 240;
@@ -124,7 +125,7 @@ export default function PersistentDrawerLeft(props) {
    else if(n===4)
    { setView(<Table />)}
    else if(n===5)
-   { setView(<Table2/>)} 
+   { setView(<Over/>)} 
    else if(n===6)
    { setView(<Table3/>)}
  }
