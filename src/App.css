@@ -96,3 +96,7 @@ h1 {
     background:black;
     transform:rotate(360deg);
   }}
+  .bag
+  {
+    background-color:#FAC4B3;
+  }

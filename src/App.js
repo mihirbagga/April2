@@ -9,10 +9,12 @@ import './App.css';
 function App()
 {
     return (
-      <div className="ui container comments">
+      <div className="bag">
+      <div >
        <Router/>
        
        
+      </div>
       </div>
     );
   }

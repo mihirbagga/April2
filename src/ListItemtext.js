@@ -53,13 +53,13 @@ const handleClick=(n)=>{
       <ListItemIcon>
         <DashboardIcon />
       </ListItemIcon>
-      <ListItemText primary="Dashboard" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#fc4c4e"}} />
+      <ListItemText primary="Dashboard" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#EE5622"}} />
     </ListItem>
  <ListItem button onClick={()=>handleClickOpen('chart')}>
         <ListItemIcon>
           <TimelineIcon />
         </ListItemIcon>
-        <ListItemText primary="Charts" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#fc4c4e"}}/>
+        <ListItemText primary="Charts" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#EE5622"}}/>
         {open ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
       <Collapse in={open} timeout="auto" unmountOnExit>
@@ -69,21 +69,21 @@ const handleClick=(n)=>{
       <ListItemIcon>
         <TimelineIcon />
       </ListItemIcon>
-      <ListItemText primary="Line Chart" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#fc4c4e"}} />
+      <ListItemText primary="Line Chart" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#EE5622"}} />
     </ListItem>
 
     <ListItem button className={classes.nested} onClick={()=>handleClick(2)}>
       <ListItemIcon>
         <PieChartIcon />
       </ListItemIcon>
-      <ListItemText primary="Pie Chart" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#fc4c4e"}} />
+      <ListItemText primary="Pie Chart" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#EE5622"}} />
     </ListItem>
 
     <ListItem button className={classes.nested} onClick={()=>handleClick(3)}>
       <ListItemIcon>
         <BarChartIcon />
       </ListItemIcon>
-      <ListItemText primary="Bar Chart" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#fc4c4e"}} />
+      <ListItemText primary="Bar Chart" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#EE5622"}} />
     </ListItem>
   
 
@@ -96,7 +96,7 @@ const handleClick=(n)=>{
         <ListItemIcon>
           <TimelineIcon />
         </ListItemIcon>
-        <ListItemText primary="Table" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#fc4c4e"}}/>
+        <ListItemText primary="Table" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#EE5622"}}/>
         {openTab ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
       <Collapse in={openTab} timeout="auto" unmountOnExit>
@@ -106,21 +106,21 @@ const handleClick=(n)=>{
       <ListItemIcon>
         <TableChartIcon/>
       </ListItemIcon>
-      <ListItemText primary="Table 1" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#fc4c4e"}} />
+      <ListItemText primary="Table 1" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#EE5622"}} />
     </ListItem>
 
     <ListItem button className={classes.nested} onClick={()=>handleClick(5)}>
       <ListItemIcon>
         <TableChartIcon />
       </ListItemIcon>
-      <ListItemText primary="Table 2" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#fc4c4e"}} />
+      <ListItemText primary="Table 2" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#EE5622"}} />
     </ListItem>
      
     <ListItem button className={classes.nested} onClick={()=>handleClick(6)}>
       <ListItemIcon>
         <TableChartIcon />
       </ListItemIcon>
-      <ListItemText primary="Table 3" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#fc4c4e"}} />
+      <ListItemText primary="Table 3" style={{fontFamily: 'Brush Script MT',fontStyle: "oblique",color:"#EE5622"}} />
     </ListItem>
 
     </List>

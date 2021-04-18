@@ -26,10 +26,6 @@ export default class Barc extends React.Component {
               display:true,
               text:'Game Players',
               fontSize:20
-            },
-            legend:{
-              display:true,
-              position:'right'
             }
           }}
         />

@@ -56,6 +56,7 @@ const useStyles = makeStyles((theme) => ({
   },
   drawerPaper: {
     width: drawerWidth,
+    backgroundColor:"#Fff"
     
   },
   drawerHeader: {
@@ -88,7 +89,7 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: theme.spacing(7),
   },
   bar:{
-    backgroundColor:"#fc4c4e",
+    backgroundColor:"#1E1726",
     borderBottom: "2px grey"
 },
 bg:
@@ -145,13 +146,13 @@ export default function PersistentDrawerLeft(props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Dashboard
+            ARENA
           </Typography>
           
-            <div style={{paddingLeft:"1000px"}}>
-            <button className="small ui right floated white button" >Login</button>
+            <div style={{paddingLeft:"950px"}}>
+            <button className="small ui right floated orange button" >Login</button>
             </div>
-            <a href="/" className="ui right floated mini circular image"  style={{paddingLeft:"0px"}} >
+            <a href="/" className="ui right floated mini circular image"  style={{paddingLeft:"0px",borderBlockColor:"orange"}} >
              <img alt="avatar" src={faker.image.avatar()}/>
             </a>
         </Toolbar>

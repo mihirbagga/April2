@@ -5,12 +5,12 @@
 }
 
 .containers {
-    font-size: 15px;
-    color: #fff;
+    font-size: 10px;
+    color: #FAC4B3;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #1a201e;
+    background-color: #FAC4B3;
     text-align: center;
 }
