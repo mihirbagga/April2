@@ -44,6 +44,7 @@ export default function ListItemtext(props){
 //Open Submenu
 const handleClick=(n)=>{
  props.setContainerView(n)
+ props.handleDrawerClose(true)
 }
 
   return(

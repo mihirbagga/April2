@@ -148,7 +148,7 @@ export default function PersistentDrawerLeft(props) {
             Dashboard
           </Typography>
           
-            <div style={{paddingLeft:"900px"}}>
+            <div style={{paddingLeft:"1000px"}}>
             <button className="small ui right floated white button" >Login</button>
             </div>
             <a href="/" className="ui right floated mini circular image"  style={{paddingLeft:"0px"}} >
@@ -172,7 +172,7 @@ export default function PersistentDrawerLeft(props) {
         </div>
         <Divider />
         <List>
-          <ListItemtext setContainerView={setContainerView}/>
+          <ListItemtext setContainerView={setContainerView} handleDrawerClose={handleDrawerClose}/>
         </List>
       </Drawer>
       <main className={classes.content}  >
