@@ -7,12 +7,12 @@ import './App.css';
 
 
 
+
 function App()
 {
     return (
       <div className="bag">
       <div >
-       
        <Router/>
        
        

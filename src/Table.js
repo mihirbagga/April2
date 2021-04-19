@@ -32,7 +32,7 @@ export default function Table(){
     return (
       <div className="app">
         <div className="containers">
-        <MaterialTable title="Employee Details" data={data} columns={columns} options={{ search: true, paging: false, filtering: true, exportButton: true }} />
+        <MaterialTable title="Player Details" data={data} columns={columns} options={{ search: true, paging: false, filtering: true, exportButton: true }} />
         </div>
       </div>
        

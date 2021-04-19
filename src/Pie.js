@@ -1,18 +1,18 @@
 import React from 'react';
 import {Pie, Doughnut} from 'react-chartjs-2';
 
-const state = {
+const s = {
   labels: ['Valorant', 'CS-Global Offensive', 'Rainbow-6',
            'Paladins', 'Fortnite'],
   datasets: [
     {
       label: 'Gamers',
       backgroundColor: [
-        '#B21F00',
-        '#C9DE00',
-        '#2FDE00',
-        '#00A6B4',
-        '#6800B4'
+        '#CC8500',
+        '#009A38',
+        '#E10038',
+        '#50002F',
+        '#350010'
       ],
       hoverBackgroundColor: [
       '#501800',
@@ -26,40 +26,32 @@ const state = {
   ]
 }
 
-export default class Piec extends React.Component {
-  render() {
+export default function Piec () {
+  
     return (
       <div>
         <Pie
-          data={state}
+          data={s}
           options={{
             title:{
               display:true,
               text:'Game Players',
               fontSize:20
             },
-            legend:{
-              display:true,
-              position:'right'
-            }
+            
           }}
         />
 
         <Doughnut
-          data={state}
+          data={s}
           options={{
             title:{
               display:true,
               text:'Game Players',
               fontSize:20
             },
-            legend:{
-              display:true,
-              position:'right'
-            }
           }}
         />
       </div>
     );
   }
-}

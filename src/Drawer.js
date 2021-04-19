@@ -25,7 +25,7 @@ import Over from './registration/over';
 
 
 const drawerWidth = 240;
-
+//Styling
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -105,14 +105,15 @@ export default function PersistentDrawerLeft(props) {
   const [open, setOpen] = React.useState(false);
   const [view,setView]=useState(<Landing/>)
   
-
+//open
   const handleDrawerOpen = () => {
     setOpen(true);
   };
-
+//close
   const handleDrawerClose = () => {
     setOpen(false);
   };
+  //Drawer items
   const setContainerView=(n)=>
  { if(n===0)
   {setView(<Landing/>)}
@@ -181,8 +182,7 @@ export default function PersistentDrawerLeft(props) {
         <div className={classes.appBarSpacer} />
         <Container maxWidth="lg" className={classes.container}>
         {view}
-        
-         
+      
         </Container>
         </main>
     </div>

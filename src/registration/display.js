@@ -2,7 +2,7 @@ import React,{useEffect} from 'react';
 import MaterialTable from 'material-table';
 import {getData,BaseURL} from '../Fetchservices'
 export default function Display() {
-  const [getColumn, setColumn] = React.useState( [
+  const getColumn = React.useState( [
       { title: 'Player Id', field: 'id' },
       { title: 'Player Name', field: 'name' },
       { title: 'Picture',   render: rowData => <img alt="avatar"src={`${BaseURL}/images/${rowData.icon}`} style={{width: 50, borderRadius: '50%'}}/>},
@@ -16,7 +16,7 @@ export default function Display() {
          console.log(list)
          setList(list)
     }
-    setColumn(getColumn)
+   
   useEffect(function(){
 fetchData()
 

@@ -1,26 +1,26 @@
 import React from 'react';
 import {Bar} from 'react-chartjs-2';
 
-const state = {
+const s= {
   labels: ['Valorant', 'CS-Global Offensive', 'Rainbow-6',
            'Paladins', 'Fortnite'],
   datasets: [
     {
       label: 'Gamers',
-      backgroundColor: 'rgba(75,192,192,1)',
-      borderColor: 'rgba(0,0,0,1)',
+      backgroundColor: 'rgb(60, 179, 113)',
+      borderColor: 'rgba(0,0,0,5)',
       borderWidth: 2,
       data: [65, 59, 80, 81, 56]
     }
   ]
 }
 
-export default class Barc extends React.Component {
-  render() {
+export default function Barc ()  {
+  
     return (
       <div>
         <Bar
-          data={state}
+          data={s}
           options={{
             title:{
               display:true,
@@ -32,4 +32,3 @@ export default class Barc extends React.Component {
       </div>
     );
   }
-}
